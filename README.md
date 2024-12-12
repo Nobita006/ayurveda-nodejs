@@ -1,3 +1,17 @@
+# Question
+
+Create a project using any library or framework like Reactjs/Nextjs or 
+just simple HTML CSS. The UI should match the given reference 
+exactly. The time to complete this task is only 1 day. Full video of the 
+working project and the source code must be submitted during 
+submission otherwise submission will not be accepted.
+https://drive.google.com/drive/folders/1ex6NqTVbuUAjZooFjTEZRNVMgJcHtDfF?us
+p=drive_link
+Note: You can also host your project on any domain and share the link to
+the working project. (optional)
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
