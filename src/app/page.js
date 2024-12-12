@@ -24,9 +24,9 @@ export default function Home() {
                 : "flex-1"
             } ${
               index === 0
-                ? "rounded-l-lg"
+                ? "rounded-l-3xl" // Increased radius for leftmost image
                 : index === sections.length - 1
-                ? "rounded-r-lg"
+                ? "rounded-r-3xl" // Increased radius for rightmost image
                 : ""
             }`}
             style={{ backgroundImage: `url(${section.image})` }}
@@ -36,11 +36,17 @@ export default function Home() {
             }}
             onMouseLeave={() => setHoveredSection(null)}
           >
-            <div className="absolute top-4 left-4 text-white text-lg font-bold">
+            <div className="absolute top-4 left-4 text-white text-3xl font">
+              {/* Increased font size */}
               {section.title}
             </div>
             {hoveredSection === section.id && (
-              <div className="absolute top-4 right-4 text-white text-xl">➔</div>
+              <div className="absolute top-4 right-4">
+                {/* Circle around the arrow */}
+                <div className="w-10 h-10 flex items-center justify-center bg-white text-black text-xl rounded-full shadow-lg">
+                  ➔
+                </div>
+              </div>
             )}
           </div>
         ))}
