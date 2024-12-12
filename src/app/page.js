@@ -7,9 +7,9 @@ export default function Home() {
   const [expandedSection, setExpandedSection] = useState(null);
 
   const sections = [
-    { id: 1, title: "STRENGTH", image: "/images/strength.jpg" },
-    { id: 2, title: "MOBILITY", image: "/images/mobility.jpg" },
-    { id: 3, title: "DRILLS", image: "/images/drills.jpg" },
+    { id: 1, title: "STRENGTH", image: "/ayurveda-nodejs/images/strength.jpg" },
+    { id: 2, title: "MOBILITY", image: "/ayurveda-nodejs/images/mobility.jpg" },
+    { id: 3, title: "DRILLS", image: "/ayurveda-nodejs/images/drills.jpg" },
   ];
 
   return (
